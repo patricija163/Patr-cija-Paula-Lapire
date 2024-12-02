@@ -1,5 +1,7 @@
 header {
+    background-color: lightblue;
     text-align: center;
+    padding: 5px;
 }
 
 #main-container {
