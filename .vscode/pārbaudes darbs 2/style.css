@@ -1,0 +1,35 @@
+header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 5px;
+}
+
+#main-container {
+    display: flex;
+    background-color: pink;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 5px;
+
+
+}
+#side-content {
+ width:30%;
+
+
+}
+
+ 
+
+#grid-container{
+ 
+ display: grid;  
+ grid-template-columns: 100px 100px 100px 100px 100px;
+ grid-template-rows: auto auto;
+ width: 40%;
+
+}
+
+#side-content {
+    width:30%;
+   
+   }
