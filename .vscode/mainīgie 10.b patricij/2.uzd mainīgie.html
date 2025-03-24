@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>JavaScript if .... else</title>
+</head>
+<body>
+<h1>JavaScript if .... else</h1>
+<p>Ievadiet stundu (1-24)</p>
+<input type="skaitlis" id="lietotajastundas">
+<button oclick="izvadaSveicienu()">Apstiprināt</button>
+<p>Sveiciens:</p>
+<p id="izveidesSveiciens"></p>
+<script>
+function izvadaSveicienu(){
+    // iegūt lietotāja ievadītos datus 
+const h= document.getElementByID("lietotajastundas")}
+let sveiciens;
+//pārbaude vai ievadītā vērtība mazaka par 11
+if(h<10){
+ sveiciens="Labrīt!"; 
+}
+else if(h<20){
+sveiciens="Labdien!";
+}
+else{
+ sveiciens="Labvakar!";   
+}documentt.getElementByID9("IzvadaSveiciens").innerHTML= sveiciens;
+//parāda sveicienu
+
+
+</script>
+</body>
+</html>
