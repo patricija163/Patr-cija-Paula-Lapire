@@ -50,3 +50,5 @@ for(let i = arr.lenght ; i > ; i)
 {
       console.log(arr[i]);
 }
+*/
+
